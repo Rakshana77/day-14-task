@@ -1,0 +1,30 @@
+.todo-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.todo-form {
+  display: flex;
+
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.todo-form > button {
+  border-radius: 2pc;
+  background-color: aquamarine;
+}
+
+.todo-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: lightcoral;
+}
+
+.todos-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
